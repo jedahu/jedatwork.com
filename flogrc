@@ -1,0 +1,27 @@
+TITLE = 'Jed at work'
+
+VCARD = dict(
+    name = 'Jeremy Hughes',
+    address = 'Wellington, New Zealand',
+    role = 'Computer programmer',
+    #note = 'Always learning',
+    photo = '/lf/me.jpg')
+
+SRC_DIR = '.'
+
+POSTS = 'posts'
+
+PAGES = '.'
+
+THEME_PATH = 'spartan'
+
+ROOT_URL = 'http://jedatwork.com/'
+
+TAG_URI = 'tag:jedatwork.com,2012:{n}'
+
+NAV = [
+    ('posts', '/' + POSTS + '/'),
+    ('projects', '/projects/')
+    ]
+
+# vim: ft=python:

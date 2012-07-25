@@ -1,0 +1,14 @@
+Beaker==1.6.3
+Flask==0.9
+-e git://github.com/jedahu/flog.git@42877532bdfdcbbb16c7c565d15b00572612ab4b#egg=Flog-dev
+Jinja2==2.6
+Pygments==1.5
+Werkzeug==0.8.3
+argparse==1.2.1
+distribute==0.6.27
+gevent==0.13.7
+greenlet==0.4.0
+gunicorn==0.14.5
+python-dateutil==2.1
+six==1.1.0
+wsgiref==0.1.2

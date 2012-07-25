@@ -1,0 +1,36 @@
+First post
+===========
+Jeremy Hughes <itsjdh@gmail.com>
+2012-03-02: Created.
+:summary: A _short_ summary.
+
+Blah blah
+
+[source,ruby]
+-------------------------------------
+def foo(x)
+  puts x + 1 + "asdf" # <1>
+end
+-------------------------------------
+
+<1> Description of code.
+
+Second level heading
+--------------------
+
+Foo *bar* /baz/
+
+- this
+- is
+- a
+- list
+
+link:../2/[two]
+
+Third level heading
+~~~~~~~~~~~~~~~~~~~
+
+ab ‘fi’ b <<abc>> wikipedia:Henry Cloud[] post:2 page:projects/foo
+
+[attribution]
+- [[[abc]]] http://en.wikipedia.org/wiki/Henry_Cloud[Henry Cloud]. 'The Mom Factor'. 1999.
