@@ -1,6 +1,6 @@
 Beaker==1.6.3
 Flask==0.9
--e git://github.com/jedahu/flog.git@42877532bdfdcbbb16c7c565d15b00572612ab4b#egg=Flog-dev
+-e git://github.com/jedahu/flog.git@a155cc7bc01ea4a4a8c57858e24239ad07eef97f#egg=Flog-dev
 Jinja2==2.6
 Pygments==1.5
 Werkzeug==0.8.3
