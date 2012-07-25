@@ -1,3 +1,0 @@
-gunicorn
-gevent
--e git://github.com/jedahu/flog.git#egg=Flog
