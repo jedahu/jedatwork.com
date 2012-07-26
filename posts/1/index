@@ -1,36 +1,22 @@
-First post
-===========
+Introducing Flog
+================
 Jeremy Hughes <itsjdh@gmail.com>
-2012-03-02: Created.
-:summary: A _short_ summary.
+2012-07-26: Created.
+2012-07-28: Changed.
+:summary: My new website engine.
 
-Welcome to my blog!
+http://github.com/jedahu/flog[Flog] is website + blog engine that meets the
+following requirements:
 
-[source,ruby]
--------------------------------------
-def foo(x)
-  puts x + 1 + "asdf" # <1>
-end
--------------------------------------
+- uses http://www.methods.co.nz/asciidoc[AsciiDoc] for posts and pages,
+  including AsciiDoc meta data;
+- uses http://pygments.org[Pygments] for code highlighting;
+- creates post URLs by ordinal number, not date or title;
+- does not mix engine code and site content in the same project;
+- generates pages statically, but on-demand (to a cache) rather than ahead of
+  time;
+- is trivial to deploy to http://heroku.com[Heroku].
 
-<1> Description of code.
+This site runs on Flog.
 
-Second level heading
---------------------
-
-Foo *bar* /baz/
-
-- this
-- is
-- a
-- list
-
-link:../2/[two]
-
-Third level heading
-~~~~~~~~~~~~~~~~~~~
-
-ab ‘fi’ b <<abc>> wikipedia:Henry Cloud[] post:2 page:projects/foo
-
-[attribution]
-- [[[abc]]] http://en.wikipedia.org/wiki/Henry_Cloud[Henry Cloud]. 'The Mom Factor'. 1999.
+Learn more from the page:flog[Flog project page].

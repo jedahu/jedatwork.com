@@ -1,1 +1,12 @@
-Welcome to my cyber home.
+Welcome to my cyber home. It has a page:posts[blog] and some page:projects[],
+the latter mostly hosted at http://github.com/jedahu[my github]. I recently
+posted on these subjects: flog:latest-posts.
+
+********************************************************************************
+This website is run by http://github.com/jedahu/flog[Flog], which is written in
+http://python.org[Python] and built on top of http://flask.pocoo.org[Flask]. It
+is hosted at http://heroku.com[Heroku]. All content is written using
+http://www.methods.co.nz/asciidoc[AsciiDoc] with code highlighting by
+http://pygments.org[Pygments]. Stylesheets were generated ahead of time by
+http://learnboost.github.com/stylus/[Stylus].
+********************************************************************************
