@@ -24,4 +24,6 @@ NAV = [
     ('projects', '/projects/')
     ]
 
+ASCIIDOC_CONF='asciidoc.conf'
+
 # vim: ft=python:
