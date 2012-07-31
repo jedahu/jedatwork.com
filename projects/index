@@ -1,7 +1,154 @@
 Projects
 ========
 Jeremy Hughes <itsjdh@gmail.com>
-2012-07-26: Created.
 :summary: Software projects I have created or contributed to.
 
+:leiningen: https://github.com/technomancy/leiningen/[Leiningen]
+:clojurescript: https://github.com/clojure/clojurescript/[Clojurescript]
+:markdown: http://daringfireball.net/projects/markdown/[Markdown]
+:syntax-highlighter: http://alexgorbatchev.com/SyntaxHighlighter/[SyntaxHighlighter]
+:ring: https://github.com/mmcgrana/ring/[Ring]
+:jpathwatch: http://jpathwatch.wordpress.com/[jpathwatch]
+:moustache: https://github.com/cgrand/moustache/[Moustache]
 
+
+Written by me in <<Clojure>>, <<Clojurescript>>, <<Python>>, and <<XSLT>>.
+
+
+[[Clojure]]
+Clojure
+-------
+
+[[lein-cst]]
+=== lein-cst
+
+https://github.com/jedahu/lein-cst/ +
+A {leiningen} plugin for {clojurescript} projects. It provides commands for
+compiling, testing and watching, as well as running REPLs.
+
+
+=== Menodora
+
+https://github.com/jedahu/menodora/ +
+A test framework for {clojurescript} that integrates with <<lein-cst>>. It uses
+macros to present a pleasant syntax and a simple mechanism for testing
+asynchronous APIs.
+
+
+[[story]]
+=== Story
+
+:source: https://github.com/jedahu/story/blob/master/src/story/core.clj[source]
+:documentation: https://jedahu.github.com/story/[documentation]
+
+https://github.com/jedahu/story/ +
+A small documentation generation program in a semi—literate-programming vein.
+It converts comments to HTML via {markdown} and highlights code using
+{syntax-highlighter}. Compare its {source} to the generated {documentation}.
+
+
+=== lein-story
+
+https://github.com/jedahu/lein-story/ +
+A {leiningen} plugin for <<story>>.
+
+
+=== ring-xslt
+
+https://github.com/jedahu/ring-xslt/ +
+{ring} middleware for transforming XML files. Provides a default stylesheet
+with `wrap`, `provide`, `use`, and `include` tags.
+
+
+=== Watcher
+
+https://github.com/jedahu/watcher/ +
+A simple API for watching paths using {jpathwatch}. Can watch directories
+recursively, adding new subpaths to the watcher as they are created.
+
+
+
+[[Clojurescript]]
+Clojurescript
+-------------
+
+
+=== Domicile
+
+https://github.com/jedahu/domicile/ +
+A DOM library for idiomatic access to element attributes and CSS properties. It
+provides implementations of `ILookup`, `ITransientAssociative`, etc, for
+`Element`, `CSSStyleDeclaration`, and `ISeqable`, `ITransientCollection`, etc,
+for DOM list types.`
+
+
+[[torus]]
+=== Torus
+
+https://github.com/jedahu/torus/ +
+A clientside web application library inspired by {ring}.
+
+
+=== Beard
+
+https://github.com/jedahu/beard/ +
+A DSL for wiring <<torus>> handlers and middleware. Inspired by {moustache}.
+
+
+=== Select
+
+https://github.com/jedahu/select/ +
+Simple client-side templating using CSS selectors. <<story>> documentation at
+http://jedahu.github.com/select/.
+
+
+=== Spaghetti
+
+https://github.com/jedahu/spaghetti/ +
+A state machine. <<story>> documentation at http://jedahu.github.com/spaghetti/.
+
+
+=== Radio
+
+https://github.com/jedahu/radio/ +
+HTTP RPC server and client. Serializes argument and return values using
+`pr-str` and the Clojurescript reader. Provides authorization using the {ring}
+session map.
+
+
+
+//[[Javascript]]
+//Javascript
+//----------
+//
+//
+//=== Spaghetti.js
+
+
+
+[[Python]]
+Python
+------
+
+
+[[flog]]
+=== flog
+
+https://github.com/jedahu/flog/ +
+The engine powering this website + blog. Read more at its page:flog[project page].
+
+
+
+[[XSLT]]
+XSLT
+----
+
+
+=== static-blog
+
+https://github.com/jedahu/static-blog/ +
+The precurser to <<flog>>, written entirely in XSLT. Transforms posts and pages
+written in XHTML + extra namespaced tags, to a properly linked web site with an
+Atom feed.
+
+// vim: set ft=asciidoc:

@@ -2,7 +2,6 @@ Introducing Flog
 ================
 Jeremy Hughes <itsjdh@gmail.com>
 2012-07-26: Created.
-2012-07-28: Changed.
 :summary: My new website engine.
 
 http://github.com/jedahu/flog[Flog] is website + blog engine that meets the
@@ -20,3 +19,5 @@ following requirements:
 This site runs on Flog.
 
 Learn more from the page:flog[Flog project page].
+
+// vim: set ft=asciidoc:
