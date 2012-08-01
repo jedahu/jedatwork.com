@@ -148,9 +148,8 @@ listed by feature-branch:
 setup-py::
   a `setup.py` file for installation by distutils, setuptools, and pip.
 python-filters::
-  a new in-process filter mechanism which uses python modules rather than
-  external commands (http://pygments.org[Pygments] integration is changed to
-  use this).
+  an in-process filter mechanism which uses python modules rather than external
+  commands (http://pygments.org[Pygments] integration is changed to use this).
 
 
 
