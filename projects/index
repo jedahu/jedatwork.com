@@ -10,6 +10,7 @@ Jeremy Hughes <itsjdh@gmail.com>
 :ring: https://github.com/mmcgrana/ring/[Ring]
 :jpathwatch: http://jpathwatch.wordpress.com/[jpathwatch]
 :moustache: https://github.com/cgrand/moustache/[Moustache]
+:AsciiDoc: http://methods.co.nz/asciidoc/[AsciiDoc]
 
 
 Written by me in <<Clojure>>, <<Clojurescript>>, <<Python>>, and <<XSLT>>.
@@ -132,10 +133,24 @@ Python
 
 
 [[flog]]
-=== flog
+=== Flog
 
 https://github.com/jedahu/flog/ +
 The engine powering this website + blog. Read more at its page:flog[project page].
+
+
+=== AsciiDoc fork
+
+https://github.com/jedahu/asciidoc/ +
+A mostly backwards-compatible fork of {AsciiDoc} with the following additions,
+listed by feature-branch:
+
+setup-py::
+  a `setup.py` file for installation by distutils, setuptools, and pip.
+python-filters::
+  a new in-process filter mechanism which uses python modules rather than
+  external commands (http://pygments.org[Pygments] integration is changed to
+  use this).
 
 
 
@@ -149,6 +164,7 @@ XSLT
 https://github.com/jedahu/static-blog/ +
 The precurser to <<flog>>, written entirely in XSLT. Transforms posts and pages
 written in XHTML + extra namespaced tags, to a properly linked web site with an
-Atom feed.
+Atom feed. It comes with
+http://github.com/jedahu/heroku-buildpack-static-blog/[a Heroku buildpack].
 
 // vim: set ft=asciidoc:
