@@ -26,4 +26,16 @@ NAV = [
 
 ASCIIDOC_CONF = 'asciidocrc'
 
+PROJECTS_ROOT = 'docs'
+PROJECTS = {
+    'flog': dict(
+      source='https://raw.github.com/jedahu/flog/master',
+      index='README',
+      asciidoc_conf=None),
+    'asciicode': dict(
+      source='https://raw.github.com/jedahu/asciicode/master',
+      index='README',
+      asciidoc_conf=None)
+    }
+
 # vim: ft=python:
