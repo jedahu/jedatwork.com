@@ -80,7 +80,7 @@ https://github.com/jedahu/domicile/ +
 A DOM library for idiomatic access to element attributes and CSS properties. It
 provides implementations of `ILookup`, `ITransientAssociative`, etc, for
 `Element`, `CSSStyleDeclaration`, and `ISeqable`, `ITransientCollection`, etc,
-for DOM list types.`
+for DOM list types.
 
 
 [[torus]]
