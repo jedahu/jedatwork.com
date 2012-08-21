@@ -1,0 +1,64 @@
+[listtags-bulleted]
+list=<div class="ulist{style? {style}}{compact-option? compact}{role? {role}}"{id? id="{id}"}>{title?<div class="title">{title}</div>}<ul>|</ul></div>
+item=<li>|</li>
+text=
+
+[listtags-numbered]
+# The start attribute is not valid XHTML 1.1 but all browsers support it.
+list=<div class="olist{style? {style}}{compact-option? compact}{role? {role}}"{id? id="{id}"}>{title?<div class="title">{title}</div>}<ol class="{style}"{start? start="{start}"}>|</ol></div>
+item=<li>|</li>
+text=
+
+[listtags-labeled]
+list=<div class="dlist{compact-option? compact}{role? {role}}"{id? id="{id}"}>{title?<div class="title">{title}</div>}<dl>|</dl></div>
+entry=
+label=
+term=<dt class="hdlist1{strong-option? strong}">|</dt>
+item=<dd>|</dd>
+text=
+
+[listtags-horizontal]
+list=<div class="hdlist{compact-option? compact}{role? {role}}"{id? id="{id}"}>{title?<div class="title">{title}</div>}<table>{labelwidth?<col width="{labelwidth}%">}{itemwidth?<col width="{itemwidth}%">}|</table></div>
+label=<td class="hdlist1{strong-option? strong}">|</td>
+term=|<br>
+entry=<tr>|</tr>
+item=<td class="hdlist2">|</td>
+text=
+
+[listtags-qanda]
+list=<div class="qlist{style? {style}}{role? {role}}"{id? id="{id}"}>{title?<div class="title">{title}</div>}<ol>|</ol></div>
+entry=<li>|</li>
+label=
+term=<p><em>|</em></p>
+item=
+text=
+
+[listtags-callout]
+ifndef::icons[]
+list=<div class="colist{style? {style}}{role? {role}}"{id? id="{id}"}>{title?<div class="title">{title}</div>}<ol>|</ol></div>
+item=<li>|</li>
+text=<p>|</p>
+endif::icons[]
+ifdef::icons[]
+list=<div class="colist{style? {style}}{role? {role}}"{id? id="{id}"}>{title?<div class="title">{title}</div>}<table>|</table></div>
+ifndef::data-uri[]
+item=<tr><td><img src="{iconsdir}/callouts/{listindex}.png" alt="{listindex}"></td><td>|</td></tr>
+endif::data-uri[]
+ifdef::data-uri[]
+item=<tr><td><img alt="{listindex}" src="data:image/png;base64, {sys:"{python}" -u -c "import base64,sys; base64.encode(sys.stdin,sys.stdout)" < "{eval:os.path.join(r"{indir={outdir}}",r"{icon={iconsdir}/callouts/{listindex}.png}")}"}"></td><td>|</td></tr>
+endif::data-uri[]
+text=|
+endif::icons[]
+
+[listtags-glossary]
+list=<div class="dlist{style? {style}}{role? {role}}"{id? id="{id}"}>{title?<div class="title">{title}</div>}<dl>|</dl></div>
+label=
+entry=
+term=<dt>|</dt>
+item=<dd>|</dd>
+text=
+
+[listtags-bibliography]
+list=<div class="ulist{style? {style}}{role? {role}}"{id? id="{id}"}>{title?<div class="title">{title}</div>}<ul>|</ul></div>
+item=<li>|</li>
+text=
