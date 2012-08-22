@@ -29,12 +29,10 @@ PROJECTS_ROOT = 'docs'
 PROJECTS = {
     'flog': dict(
       source='https://raw.github.com/jedahu/flog/master',
-      index='README',
-      asciidoc_conf=None),
+      index='README'),
     'asciicode': dict(
       source='https://raw.github.com/jedahu/asciicode/master',
-      index='README',
-      asciidoc_conf=None)
+      index='README')
     }
 
 # vim: ft=python:
