@@ -4,7 +4,7 @@ VCARD = dict(
     name = '<a href="http://twitter.com/jedahu">Jeremy Hughes</a>',
     address = 'Wellington, New Zealand',
     role = 'Computer programmer',
-    photo = '/lf/me.jpg')
+    photo = 'lf/me.jpg')
 
 SOURCE_URL = 'https://raw.github.com/jedahu/jedatwork.com/master'
 
