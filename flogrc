@@ -11,9 +11,7 @@ SOURCE_URL = 'https://raw.github.com/jedahu/jedatwork.com/master'
 
 SRC_DIR = '.'
 
-POSTS = 'posts'
-
-PAGES = '.'
+POSTS_PATH = 'posts'
 
 THEME_PATH = 'spartan'
 
@@ -22,7 +20,7 @@ ROOT_URL = 'http://jedatwork.com/'
 TAG_URI = 'tag:jedatwork.com,2012:{n}'
 
 NAV = [
-    ('posts', '/' + POSTS + '/'),
+    ('posts', '/' + POSTS_PATH + '/'),
     ('projects', '/projects/')
     ]
 
