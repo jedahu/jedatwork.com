@@ -4,16 +4,13 @@ VCARD = dict(
     name = '<a href="http://twitter.com/jedahu">Jeremy Hughes</a>',
     address = 'Wellington, New Zealand',
     role = 'Computer programmer',
-    #note = 'Always learning',
     photo = '/lf/me.jpg')
 
 SOURCE_URL = 'https://raw.github.com/jedahu/jedatwork.com/master'
 
 SRC_DIR = '.'
 
-POSTS = 'posts'
-
-PAGES = '.'
+POSTS_PATH = 'posts'
 
 THEME_PATH = 'spartan'
 
@@ -22,7 +19,7 @@ ROOT_URL = 'http://jedatwork.com/'
 TAG_URI = 'tag:jedatwork.com,2012:{n}'
 
 NAV = [
-    ('posts', '/' + POSTS + '/'),
+    ('posts', '/' + POSTS_PATH + '/'),
     ('projects', '/projects/')
     ]
 
@@ -32,12 +29,10 @@ PROJECTS_ROOT = 'docs'
 PROJECTS = {
     'flog': dict(
       source='https://raw.github.com/jedahu/flog/master',
-      index='README',
-      asciidoc_conf=None),
+      index='README'),
     'asciicode': dict(
       source='https://raw.github.com/jedahu/asciicode/master',
-      index='README',
-      asciidoc_conf=None)
+      index='README')
     }
 
 # vim: ft=python:
