@@ -7,6 +7,8 @@ VCARD = dict(
     #note = 'Always learning',
     photo = '/lf/me.jpg')
 
+SOURCE_URL = 'https://raw.github.com/jedahu/jedatwork.com/master'
+
 SRC_DIR = '.'
 
 POSTS = 'posts'
