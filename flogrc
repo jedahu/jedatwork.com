@@ -25,14 +25,24 @@ NAV = [
 
 ASCIIDOC_CONF = 'asciidocrc'
 
-PROJECTS_ROOT = 'docs'
-PROJECTS = {
-    'flog': dict(
-      source='https://raw.github.com/jedahu/flog/master',
-      index='README'),
-    'asciicode': dict(
-      source='https://raw.github.com/jedahu/asciicode/master',
-      index='README')
+PLUGINS = {}
+PLUGINS['flog.plugins.projects'] = {
+    'root': 'docs',
+    'projects': {
+        'flog': dict(
+          source='https://raw.github.com/jedahu/flog/master',
+          index='README'),
+        'asciicode': dict(
+          source='https://raw.github.com/jedahu/asciicode/master',
+          index='README'),
+        'jselect': 'https://raw.github.com/jedahu/jselect/master'
+        }
     }
 
+PLUGINS['flog.plugins.jsapps'] = {
+    'root': 'apps',
+    'apps': {
+      'jselect-tests': 'https://raw.github.com/jedahu/jselect/master/test.html'
+      }
+    }
 # vim: ft=python:
