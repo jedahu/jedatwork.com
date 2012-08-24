@@ -31,10 +31,10 @@ PLUGINS['flog.plugins.projects'] = {
     'projects': {
         'flog': dict(
           source='https://raw.github.com/jedahu/flog/master',
-          index='README'),
+          title='Flog'),
         'asciicode': dict(
           source='https://raw.github.com/jedahu/asciicode/master',
-          index='README'),
+          title='AsciiCode'),
         'jselect': dict(
           source='https://raw.github.com/jedahu/jselect/master',
           title='JSelect')
