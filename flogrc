@@ -20,14 +20,14 @@ TAG_URI = 'tag:jedatwork.com,2012:{n}'
 
 NAV = [
     ('posts', '/' + POSTS_PATH + '/'),
-    ('projects', '/projects/')
+    ('projects', '/p/')
     ]
 
 ASCIIDOC_CONF = 'asciidocrc'
 
 PLUGINS = {}
 PLUGINS['flog.plugins.projects'] = {
-    'root': 'docs',
+    'root': 'p',
     'projects': {
         'flog': dict(
           source='https://raw.github.com/jedahu/flog/master',
