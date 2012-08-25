@@ -35,6 +35,9 @@ PLUGINS['flog.plugins.projects'] = {
         'asciicode': dict(
           source='https://raw.github.com/jedahu/asciicode/master',
           title='AsciiCode'),
+        'asciidoc': dict(
+          source='https://raw.github.com/jedahu/asciidoc/master',
+          title='AsciiDoc'),
         'jselect': dict(
           source='https://raw.github.com/jedahu/jselect/master',
           title='JSelect')
