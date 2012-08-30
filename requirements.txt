@@ -12,4 +12,4 @@ six==1.1.0
 wsgiref==0.1.2
 -e git+git://github.com/jedahu/asciicode.git@f4e9d310ca3026591425ff52779bc2e4992d13aa#egg=AsciiCode
 -e git+git://github.com/jedahu/asciidoc.git@0d2c66051fc4fcc1ed97147c884611737e8b632b#egg=AsciiDoc
--e git+git://github.com/jedahu/flog.git@5b4a92f3faf3d17be6510191a881d6a5cbc12952#egg=Flog
+-e git+git://github.com/jedahu/flog.git@adb1dab9e2dbcc636de736c1cd4ee0482355db9b#egg=Flog
