@@ -10,6 +10,6 @@ python-dateutil==2.1
 python-magic==0.4.2
 six==1.1.0
 wsgiref==0.1.2
--e git+git://github.com/jedahu/asciicode.git#egg=AsciiCode
--e git+git://github.com/jedahu/asciidoc.git#egg=AsciiDoc
--e git+git://github.com/jedahu/flog.git#egg=Flog
+-e git+git://github.com/jedahu/asciicode.git@afed6afaa5bc85fe7320cd5b334691708d40e577#egg=AsciiCode
+-e git+git://github.com/jedahu/asciidoc.git@4eeeec41849242b58f9995541432b080acf1ef48#egg=AsciiDoc
+-e git+git://github.com/jedahu/flog.git@5be1e4ec7e0bb0ed92bdfec781b37f7a295b2b91#egg=Flog
